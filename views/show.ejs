@@ -1,0 +1,39 @@
+<% include partials/header %>
+<div class="container">
+<h1>
+	<strong><%= user.fname %> <%= user.lname %></strong> 
+</h1>
+<div class="show">
+<table class="table table-striped">
+    <tbody>
+      <tr>
+        <td>Company</td>
+        <td style="padding-left: 50%;"><%= user.company %></td>
+	  </tr>
+	  <tr>
+        <td>City</td>
+        <td style="padding-left: 50%;"><%= user.city %></td>
+	  </tr>
+	  <tr>
+        <td>State</td>
+        <td style="padding-left: 50%;"><%= user.state %></td>
+	  </tr>
+	  <tr>
+        <td>ZIP</td>
+        <td style="padding-left: 50%;"><%= user.zip %></td>
+	  </tr>
+	  <tr>
+        <td>Website</td>
+        <td style="padding-left: 50%;"><%= user.website %></td>
+	  </tr>
+	  <tr>
+        <td>Age</td>
+        <td style="padding-left: 50%;"><%= user.age %></td>
+      </tr>
+	</tbody>
+</table>
+</div>
+<br>
+<a class="btn btn-primary" href="/">GO BACK</a>
+</div>
+<% include partials/footer %>
