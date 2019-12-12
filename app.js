@@ -4,7 +4,7 @@ var mongoose = require("mongoose");
 var User = require("./models/user");
 var app = express();
 
-mongoose.set('useUnifiedTopology',true);
+// mongoose.set('useUnifiedTopology',true);
 mongoose.connect("mongodb+srv://ashish:ASHISH@0105@cluster0-opwzt.mongodb.net/test?retryWrites=true&w=majority",{useNewUrlParser:true, useCreateIndex: true}).then(()=>{
 	console.log("Connected to the DB");
 }).catch(err =>{
