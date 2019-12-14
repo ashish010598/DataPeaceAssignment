@@ -1,4 +1,5 @@
 # DataPeaceAssignment
+NOTE: Followng command is for linux or any operating system with a terminal.
 
 Clone or Download this repository to your local system.
 
